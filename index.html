@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brawl Stars Account Stats</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMlVfL9Gz8xOmCk8i4hXr/MzL+He2eL3oW9y2zY" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Brawl Stars Stats</h1>
+            </div>
+            <nav>
+                <a href="#"><i class="fab fa-telegram"></i></a>
+                <a href="#"><i class="fab fa-discord"></i> Support Server</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="generator">
+        <div class="container">
+            <h2>Generate Image</h2>
+            <input type="text" id="playerTag" placeholder="Enter your tag" class="input-box">
+            <button id="fetchStats" class="btn-primary">Fetch Stats</button>
+            <div id="playerStats" class="stats-display">
+                <!-- Player stats will be dynamically injected here -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Brawl Stars Stats. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
